@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+}
+/*====Positions====*/
+
+body{
+  background-color:#A09992;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backgr{
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+.image, .date, .text, .footer, .motivation, .motpic{
+  text-align: center;
+}
+.motivation{
+  width: 100%;
+}
+
+/*====HEADER STYLE====*/
+header p{
+  font-size: .8rem;
+  margin: 5% 0 0 0;
+  font-family: 'quicksand', 'serif';
+}
+.up {
+  background-color: #42444e;
+  font-family: 'catamaran', 'serif';
+  text-align: center;
+  padding: 0.235rem;
+  color:#fff;
+}
+
+.navigation{ 
+  text-align: center;
+	padding: 1.25rem;
+	color: #fff;
+	background-color: #42444e;
+}
+.magyar, .english{
+  display: inline-block;
+	border: 1px solid #8c8e9b;
+	color: #8c8e9b;
+	border-radius: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 5px;
+	width: 100px;
+}
+
+a {
+	color: #e5127d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFDBF;
+}
+
+/*==== Image Style====*/
+
+.motivation{
+  opacity: .9;
+}
+.me{
+  width: 30%;
+  border-radius: 50%;
+  margin-top: -30px;
+  filter: brightness(110%);
+  }
+.me:hover{
+   content: url('https://i.imgur.com/qjccczq.jpg');
+  filter: blur(.2px) grayscale(50%);
+}
+.instruction {
+  font-size: .7rem;
+  font-family: 'quicksand', 'serif';
+}
+
+/*====Date design===*/
+
+.date{
+  margin:40px;
+}
+.date h1{
+  font-family: 'catamaran', 'serif';
+  font-size: 1.5rem;
+  font-weight:bold;
+  margin-bottom: 1rem;
+}
+.date h2{
+  font-size: 1.22rem;
+  font-family: 'catamaran', 'serif';
+}
+
+/*====Text design====*/
+
+.text{
+  background-color:#FFFDBF;
+  border-radius: 2px;
+  opacity:.5;
+  font-family:'Quicksand','serif';
+  text-align: left;
+  padding: 10px;
+  display: block;
+}
+.text p {
+  margin: 2%;
+}
+.text ul{
+  margin-bottom: 2%;
+}
+div li{
+  display:block;
+}
+
+/*====Contact links====*/
+.footer{
+  padding: 1rem;
+}
+
+h3{
+  font-weight:bold;
+  font-family:'catamaran';
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+section ul {
+  list-style-type: none;
+}
+section li {
+  color:#FFFDBF;
+  display: inline;
+  margin: 5%;
+}
