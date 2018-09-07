@@ -102,7 +102,7 @@ a:hover {
   background-color:#FFFDBF;
   border-radius: 2px;
   opacity:.5;
-  font-family:'Quicksand','serif';
+  font-family:'Bellefair','serif';
   text-align: left;
   padding: 10px;
   display: block;
@@ -132,7 +132,6 @@ section ul {
   list-style-type: none;
 }
 section li {
-  color:#FFFDBF;
   display: inline;
   margin: 5%;
 }
